@@ -1,0 +1,172 @@
+/* CSS files add styling rules to your content */
+* {
+  font-family: arial;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: monospace, arial, sans-serif;
+  /*margin: 2em;*/
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#july {
+  line-height:2.5;
+}
+
+.container{
+  width: 75%;
+  height: 800px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-wrapper{
+/*   border: 1px solid blue; */
+/*   background-color: #99ccff; */
+  background-image: url(https://64.media.tumblr.com/b7fef39373ab02b826c440940484517f/cd4f1203ff2ba409-7b/s400x600/9f0a6e27fc2900765ad6f340b0df3eb066600010.gif);
+  background-size: auto 100%;
+  background-position: center;
+  width: 30%;
+  height: 80%;
+/*   background: green; */
+  display:flex;
+  justify-content:center;
+  align-items: center;
+/*   box-shadow: 8px 8px 12px lightgray; */
+ 
+}
+
+.work {
+/*   border: 1px solid red; */
+  width: 25%;
+  height: 80%;
+  
+}
+
+.chill {
+/*   border: 1px solid red; */
+  width: 40%;
+  height: 80%;
+  
+}
+
+.title {
+/*   border: 1px solid green; */
+  width: 30%;
+  height: 100%;
+  display:flex;
+  justify-content:center;
+  
+}
+
+
+.h1{
+  
+}
+
+.calendar-weekday {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1em repeat(5, auto);
+}
+
+.calendar-weekend {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1em repeat(5, auto);
+}
+
+.day {
+/*   border: 1px solid black; */
+  text-align: center;
+  font-size: 10px;
+  line-height: 100px;
+  
+}
+
+.day2 {
+/*   border: 1px solid black; */
+  text-align: center;
+  font-size: 10px;
+  line-height: 100px;
+  transition: 5s;
+  color: transparent;
+  text-shadow: 2px 2px 4px black;
+  
+}
+
+.weekday {
+  border: 1px transparent;
+  text-align: center;
+  font-size: 10px;
+  line-height: 25px;
+}
+
+.work:hover ~ .image-wrapper {
+    background-image: url(https://64.media.tumblr.com/e43e39c9693186e4ea96fb254cd9a3ef/tumblr_n78phtRHpN1tsf68ao1_400.gif);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.chill:hover ~ .image-wrapper {
+    background-image: url(https://64.media.tumblr.com/b7fef39373ab02b826c440940484517f/cd4f1203ff2ba409-7b/s400x600/9f0a6e27fc2900765ad6f340b0df3eb066600010.gif);
+    background-size: auto 100%;
+    background-position: center;
+    
+}
+
+
+.day:hover {
+  border: 2px solid red;
+  text-align: center;
+  font-size: 20px;
+  color: red;
+  line-height: 100px;
+  box-shadow: 4px 4px 6px red;
+}
+
+.day2:hover {
+/*   border: 2px solid red; */
+  color:blue;
+  background-color: #e6f2ff;
+  text-align: center;
+  font-size: 10px;
+  line-height: 100px;
+  text-shadow: 0 0 0px;
+/*   box-shadow: 8px 8px 10px lightgreen; */
+}
+
+
+/* .date {
+  border: 1px solid yellow;
+  width: 50%;
+  height: 30%;
+  display:flex;
+} */
+
+/* .day {
+  border: 1px solid black;
+  width: 50%;
+  height: 30%;
+  display:flex;
+} */
+
+/* .image-wrapper, .sidebar {
+  display: inline-block;
+  vertical-align: top;
+} */
