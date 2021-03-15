@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Top 10</title>
+    <link rel="icon" type="image/png" href="../images/chainlink_icon_2.png"/>
+    <style>
+
+body {
+  background-color: blue;
+  transition: 1.5s;
+}
+
+div {
+  
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.ring10 {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  border-radius: 50%;
+  border:1px solid red;
+  position: relative;
+  text-align: center;
+  transition: 1.0s;
+}
+
+.ring09 {
+  height: 450px;
+  width: 450px;
+  background-color: blue;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size:15pt;
+  text-align: center;
+  line-height: 450px;
+  transition: 1.5s;
+}
+
+.ring08 {
+  height: 400px;
+  width: 400px;
+  background-color: #4d4dff;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  line-height: 775px;
+  transition: 1.1s;
+}
+
+.ring07 {
+  height: 350px;
+  width: 350px;
+  background-color: #6666ff;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-align: left;
+  line-height: 350px;
+  transition: 0.2s;
+}
+
+.ring06 {
+  height: 300px;
+  width: 300px;
+  background-color: #9999ff;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  line-height: 25px;
+  transition: 0.9s;
+}
+
+.ring05 {
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-align: right;
+  line-height: 250px;
+  transition: 0.2s;
+}
+
+.ring04 {
+  height: 200px;
+  width: 200px;
+  background-color: #1a1aff;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  line-height: 375px;
+  transition: 0.7s;
+}
+
+.ring03 {
+  height: 150px;
+  width: 150px;
+  background-color: #4d4dff;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-align: left;
+  line-height: 150px;
+  transition: 0.2s;
+}
+
+.ring02 {
+  height: 100px;
+  width: 100px;
+  background-color: #6666ff;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-align:center;
+  line-height: 25px;
+  transition: 0.5s;
+}
+
+.ring01 {
+  height: 50px;
+  width: 50px;
+  background-color: #9999ff;
+  border-radius: 50%;
+  border:1px solid red;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-align:center;
+  line-height: 50px;
+  transition: 0.2s;
+}
+
+.enter {
+  height: 50px;
+  width: 400px;
+  border:0px solid red;
+  text-align:center;
+  line-height: 25px;
+  font-size:15pt;
+  transition: 0.5s;
+}
+
+
+.ring10:hover {
+  background-color:red;
+}
+
+.ring09:hover {
+  background-color:red;
+}
+
+.ring08:hover {
+  background-color:red;
+}
+
+.ring07:hover {
+  background-color:red;
+}
+
+.ring06:hover {
+  background-color:red;
+}
+
+.ring05:hover {
+  background-color:red;
+}
+
+.ring04:hover {
+  background-color:red;
+}
+
+.ring03:hover {
+  background-color:red;
+}
+
+.ring02:hover {
+  background-color:red;
+}
+
+.ring01:hover {
+  background-color:red;
+}
+ 
+a {
+  color:black;
+  outline:none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+a:link {
+  color:black;
+}
+
+a:visited {
+  color:red;
+  
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+  color:black
+
+}
+
+a:active {
+  color:blue;
+
+}
+
+img{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  margin: auto;
+}
+
+.rotate {
+  animation: rotation 90s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+  to {
+    transform: rotate(359deg);
+    transform-origin: center;
+  }
+}
+
+    </style>
+
+  </head>
+  <body>
+<!--     <a href="../../index.html"><em>return</em></a> -->
+    <br>
+    <br>
+    <div class="ring10"><img src="../../images/pool_01.gif" height="500" class="rotate">
+     <div class="ring09"><a href="ouroboros_terminal.html" title="&#8734"><span style="color:blue" onmouseover="document.body.style.backgroundColor ='red'" onmouseout="document.body.style.backgroundColor ='blue'">&nbsp; &nbsp;O U R O B O R O S</span></a>
+<!--         <div class="ring08"><a href="circle_viii.html" target="_blank" title="cast">VIII</a>
+          <div class="ring07"><a href="circle_vii.html" target="_blank" title="confide">VII</a>
+            <div class="ring06"><a href="circle_vi_soon.html" title="catapult"><s>VI</s></a>
+              <div class="ring05"><a href="circle_v_soon.html" title="captivate"><s>V</s> &nbsp;</a>
+                <div class="ring04"><a href="circle_iv_soon.html" title="concentrate"><s>IV</s></a>
+                  <div class="ring03"><a href="circle_iii_soon.html" title="cleanse">&nbsp;<s>III</s></a>
+                    <div class="ring02"><a href="circle_ii_soon.html" title="construct"><s>II</s></a>
+                      <div class="ring01" onmouseover="document.body.style.backgroundColor ='red'" onmouseout="document.body.style.backgroundColor ='blue'"><a href="circle_i.html" title="u n c o n t r a l l a b l e f l e s h">I</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="enter">
+      <span style="color:blue">&nbsp; &nbsp;<em>u n c o n t r a l l a b l e &nbsp;f l e s h</em></span>
+    </div>
+    
+    <!--
+    <h4> II.</h4> 
+      <p>
+      Mosaburo Makita
+      </p>
+      <ul>
+        <li>
+          XDT14Z
+          <br>
+          <audio controls title="XDT14Z">
+            <source src="https://freesound.org/data/previews/466/466716_9835095-lq.mp3">
+          </audio>
+        </li>
+        <li>
+          XPH07Z
+          <br>
+          <audio controls title="XPH07Z">
+            <source src="https://freesound.org/data/previews/425/425995_1857065-lq.mp3">
+          </audio>
+        </li>
+        <li>
+          XVJ03Z
+          <br>
+          <audio controls title="XVJ03Z">
+            <source src="https://freesound.org/data/previews/79/79285_1022651-lq.mp3">
+          </audio>
+        </li>
+        <li>
+          XSH03Z
+          <br>
+          <audio controls title="XSH03Z">
+            <source src="https://freesound.org/data/previews/448/448133_2573247-lq.mp3">
+          </audio>
+        </li>
+      </ul>
+      <br>
+      <h4> III.</h4>
+      <p>
+      Select cleanse type:
+      </p>
+      
+      <input id="body" name="cleanse" type="radio" value="body">
+          <label for="body">BODY</label>
+         
+          <input id="mind" name="cleanse" type="radio" value="mind">
+          <label for="mind">MIND</label>
+
+          <input id="total" name="cleanse" type="radio" value="total">
+          <label for="total">TOTAL</label>
+      <br>
+      <br>
+      <h4> IV.</h4>
+      <p>
+      Select bodily discipline:
+           <select name="body" id="body">
+            <option value="yoga" name="yoga">YouTube Yoga</option>
+            <option value="FTP" name="FTP">FTP Training</option>
+            <option value="cyling" name="cycling">Cycling</option>
+            <option value="water" name="water">128oz h2o intake</option>
+          </select>
+      </p>
+      <p>
+      Select mental restructuring:
+           <select name="body" id="body">
+            <option value="visualization" name="visualization">Extended Visualization</option>
+            <option value="Mindfulness" name="Mindfulness">Mindfulness</option>
+            <option value="alcohol" name="alcohol">Alcohol Temperance</option>
+            <option value="stoic" name="stoic">Stoic Meditation</option>
+          </select>
+      </p>
+      <p>
+      Select desired outcome:
+           <select name="body" id="body">
+            <option value="bliss" name="bliss">Ecstatic Bliss</option>
+            <option value="transfiguration" name="transfiguration">Complete Transfiguration</option>
+            <option value="acceptance" name="acceptance">Blind Acceptance</option>
+                        <option value="same" name="same">No Change</option>
+          </select>
+      </p>
+      <br>
+      <h4> V.</h4>
+      <img src="https://i2.wp.com/31.media.tumblr.com/18f5eed51d755faeb578070f7ae64d20/tumblr_n97wwyGVc91qas5xlo1_500.gif" alt="a woman in bed, close up of her face, her eyes open and close five times as they look directly at the viewer. From Chris Marker's La Jetee" title="gaze permeates z axis">
+      <br>
+      <br>
+      <br>
+      <h4> VI.</h4>
+      <img src="http://nerdist.com/wp-content/uploads/2015/09/lajetee5_090515.gif" alt="close up of face of a man in a hammock as he struggles in agony, a device obscuring his eyes is fixed to his face and wires stream down, like tears, off bottom screen" title="snake consumes molting skin">
+      <br>
+      <br>-->
+  </body>
+</html>
