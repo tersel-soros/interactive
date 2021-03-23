@@ -129,7 +129,8 @@ h1 {
   }
     
   .semicircle2 {
-  color: #00cc00;
+/*  color: #00cc00;*/
+  color: green;
   font-size:20px;
   opacity: .5;
   }
@@ -165,7 +166,8 @@ h1 {
     background-color: red;
   } */
   .semicircle2 {
-    color: #00cc00;
+/*    color: #00cc00;*/
+    color: green;
     font-size:20px;
   }
   
