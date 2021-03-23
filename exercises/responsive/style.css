@@ -190,6 +190,16 @@ h1 {
   body {
     background-color:blue;
   }
-  
-  
+}
+
+@media all and (min-width: 1200px) and (max-width: 2500px){
+    .semicircle1 {
+  color: black;
+    }
+}
+
+@media all and (min-width: 2500px){
+    .semicircle1 {
+  color: transparent;
+    }
 }
