@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Blurry",
+  "version": "1.0",
+  "description": "Blur everything with a little CSS!",
+  "content_scripts": [{ 
+    "matches": ["http://*/*", "https://*/*"],
+    "css": ["styles.css"]
+  }]
+}
