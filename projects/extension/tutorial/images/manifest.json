@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Weather",
+  "version": "1.0",
+  "description": "Each time you click, a new image appears",
+  "content_scripts": [{ 
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["pile.js"],
+    "css": ["styles.css"]
+  }],
+  "web_accessible_resources" : [ 
+    "assets/*" 
+  ]
+}
