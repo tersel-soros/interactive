@@ -86091,7 +86091,7 @@ const params = {
   showGazeDot: true,
   camConstraints: { video: { width: { min: 320, ideal: 640, max: 1920 }, height: { min: 240, ideal: 480, max: 1080 }, facingMode: "user" } },
   dataTimestep: 50,
-  showVideoPreview: true,
+  showVideoPreview: false,
   applyKalmanFilter: true,
   // Whether or not to store accuracy eigenValues, used by the calibration example file
   storingPoints: false,
