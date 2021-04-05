@@ -86084,7 +86084,7 @@ const params = {
   videoViewerHeight: 240,
   faceFeedbackBoxRatio: 0.66,
   // View options
-  showVideo: true,
+  showVideo: false,
   mirrorVideo: true,
   showFaceOverlay: true,
   showFaceFeedbackBox: true,
