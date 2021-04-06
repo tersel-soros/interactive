@@ -88304,8 +88304,8 @@ async function init(stream) {
   gazeDot.style.background = 'red';
   gazeDot.style.borderRadius = '100%';
   gazeDot.style.opacity = '0.7';
-  gazeDot.style.width = '10px';
-  gazeDot.style.height = '10px';
+  gazeDot.style.width = '20px';
+  gazeDot.style.height = '20px';
 
   // Add other preview/feedback elements to the screen once the video has shown and its parameters are initialized
   videoContainerElement.appendChild(videoElement);
