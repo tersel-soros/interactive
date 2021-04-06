@@ -88301,7 +88301,7 @@ async function init(stream) {
   gazeDot.style.zIndex = 99999;
   gazeDot.style.left = '-5px'; //'-999em';
   gazeDot.style.top  = '-5px';
-  gazeDot.style.background = 'blue';
+  gazeDot.style.backgroundImage = "url('reticle.png')";
   gazeDot.style.borderRadius = '100%';
   gazeDot.style.opacity = '0.7';
   gazeDot.style.width = '20px';
