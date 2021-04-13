@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: red;
+}
+
+
+#canvas {
+	background-color: red;
+	position: absolute;
+	left: 50%;
+	margin-left: -540px;
+	height: 1920px;
+	width: 1080px;
+}
+
+#upon {
+position: absolute;
+top: 27px;
+	left: 474px;
+height: 159px;
+width: 574px;
+z-index: 3;
+
+}
+
+#support {
+	position: absolute;
+	top: 71px;
+		left: 106px;
+	height: 83px;
+	width: 240px;
+	z-index: 3;
+
+}
+
+.zoom:hover {
+		transform: scale(1.075);
+}
+
+a {
+cursor: url("images/eyeroll.gif"), url("eyeroll.cur"), default;
+}
