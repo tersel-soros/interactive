@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Open Your Mind",
+	"version": "1.0",
+	"description": "let us in",
+	"web_accessible_resources": ["reticle.png"],
+	"content_scripts": [{ 
+		"matches": ["http://*/*", "https://*/*"],
+		"js": [
+			"WebGazer.js",
+			"inject.js"
+		]
+}]
+}
