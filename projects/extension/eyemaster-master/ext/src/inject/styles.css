@@ -1,0 +1,24 @@
+.quadrant {
+  position: fixed;
+  border: 1.5px solid black;
+  box-sizing: border-box;
+  background:rgba(234,237,236,0.6);
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  z-index: 1000000;
+  backdrop-filter: blur(3px);
+}
+.quadrant-text {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.selected {
+  background:rgba(234,237,236,0.98);
+}
+.top    { height: 50%; top:    0; }
+.bottom { height: 50%; bottom: 0; }
+.left   { width:  50%; left:   0; }
+.right  { width:  50%; right:  0; }
+.clear { display: none;}
