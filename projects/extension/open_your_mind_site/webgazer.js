@@ -88302,9 +88302,9 @@ async function init(stream) {
   gazeDot.style.left = '-5px'; //'-999em';
   gazeDot.style.top  = '-5px';
   // gazeDot.style.background = 'blue';
-  gazeDot.style.backgroundImage = "url('fly2.png')";
+  gazeDot.style.backgroundImage = "url('fly6.gif')";
   gazeDot.style.borderRadius = '100%';
-  gazeDot.style.opacity = '1.0';
+  gazeDot.style.opacity = '.9';
   gazeDot.style.width = '72px';
   gazeDot.style.height = '72px';
 
