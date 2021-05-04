@@ -16,6 +16,12 @@ body {
 
 a:link {
   text-decoration: none;
+  animation: downloadcolor 4s infinite;
+}
+
+a:visited {
+  text-decoration: none;
+  animation: downloadcolor 4s infinite;
 }
 
 #canvas {
