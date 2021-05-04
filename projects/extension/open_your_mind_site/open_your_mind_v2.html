@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OPEN YOUR MIND</title>
+    <link rel="icon" type="image/gif" href="images/eyebal.gif"/>
+   <!--  <link rel="stylesheet" href="upon_style.css"> -->
+    <style>
+
+        body {
+            background-color: red;
+        }
+        #canvas {
+            background-color: red;
+            position: absolute;
+            left: 50%;
+            margin-left: -540px;
+            height: 1920px;
+            width: 1080px;
+        }
+
+/*      #chains {
+            position: absolute;
+            top: 256px;
+            left: 512px;
+            height: 595px;
+            width: 511px;
+            z-index: 2;
+
+        }
+
+        #fuckyou {
+            position: absolute;
+            top: 1229px;
+            left: 40px;
+            height: 270px;
+            width: 379px;
+            z-index: 11;
+
+        }*/
+
+
+/*      #gazeeye {
+            position: absolute;
+            top: 27px;
+            left: 474px;
+            height: 159px;
+            width: 574px;
+            z-index: 3;
+
+        }*/
+/*
+        #gazetext {
+            position: absolute;
+            top: 534px;
+            left: 341px;
+            height: 473px;
+            width: 398px;
+            z-index: 3;
+
+        }
+
+        #payme {
+            position: absolute;
+            top: 1450px;
+            left: 235px;
+            height: 422px;
+            width: 474px;
+            z-index: 3;
+
+        }*/
+
+/*      #redeye {
+            position: absolute;
+            top: 27px;
+            left: 474px;
+            height: 159px;
+            width: 574px;
+            z-index: 3;
+
+        }*/
+
+/*      #sunglasses {
+            position: absolute;
+            top: 895px;
+            left: 689px;
+            height: 929px;
+            width: 380px;
+            z-index: 3;
+
+        }
+
+        #support {
+            position: absolute;
+            top: 71px;
+            left: 106px;
+            height: 83px;
+            width: 240px;
+            z-index: 3;
+
+        }
+
+        #theysee {
+            position: absolute;
+            top: 1018px;
+            left: 258px;
+            height: 425px;
+            width: 355px;
+            z-index: 3;
+
+        }*/
+
+/*      #upon {
+            position: absolute;
+            top: 27px;
+            left: 474px;
+            height: 159px;
+            width: 574px;
+            z-index: 3;
+
+        }*/
+
+        #whiteeye {
+            position: absolute;
+            top: 670px;
+            left: 360px;
+            height: 226px;
+            width: 359px;
+            z-index: 4;
+            transition: .25s;
+
+        }
+
+        #whiteeye:hover {
+            display: none;
+        }
+
+        #eyegif {
+            position: absolute;
+            top: 670px;
+            left: 360px;
+            height: 226px;
+            width: 359px;
+            z-index: 3;
+
+        }
+
+/*      #yousee {
+            position: absolute;
+            top: 570px;
+            left: 56px;
+            height: 425px;
+            width: 294px;
+            z-index: 10;
+
+
+        }
+
+        #smile {
+            position: absolute;
+            top: 237px;
+            left: 36px;
+            height: 250px;
+            width: 360px;
+            z-index: 3;
+            overflow: hidden;
+
+        }*/
+
+        .zoom:hover {
+            transform: scale(1.075);
+        }
+
+/*        a {
+        cursor: url("images/eyeroll.gif"), url("eyeroll.cur"), default;
+        }*/
+
+
+
+    </style>
+
+
+
+  <script src="webgazer.js" type="text/javascript" ></script>
+  </head>
+  <body>
+  <script>
+    webgazer.setGazeListener(function(data, elapsedTime) {
+    if (data == null) {
+        return;
+    }
+    var xprediction = data.x; //these x coordinates are relative to the viewport
+    var yprediction = data.y; //these y coordinates are relative to the viewport
+    console.log(elapsedTime); //elapsed time is based on time since begin was called
+}).begin();
+</script>
+    
+    <div id="canvas">
+<!--        <div id="chains" class="zoom"><a href="upon_preempt.html"><img src="images/chains_2.svg" title="change the LAW"></a></div>
+        <div id="upon" ><img src="images/upon_1.svg"></div>
+        <div id="support" class="zoom"><a href="upon_support.html"><img src="images/support_3.svg" title="join the fight"></a></div>
+        <div id="fuckyou" class="zoom"><a href="upon_pay_me.html"><img src="images/fuck_you_7.svg" title="fuck you, pay me"></a></div>
+        <div id="payme" class="zoom"><a href="upon_pay_me.html"><img src="images/pay_me_6.svg" title="FUCK YOU PAY ME"></a></div>
+        <div id="yousee" class="zoom"><a href="upon_mobile.html"><img src="images/you_see_8.svg" title="what you see..."></a></div>
+        <div id="gazetext" ><img src="images/gaze_text_12.svg"></div>
+        <div id="sunglasses" class="zoom"><a href="upon_sunglasses.html"><img src="images/sunglasses_4.svg" title="P R A C T I C A L / T A C T I C A L"></a></div>
+        <div id="theysee" class="zoom"><a href="upon_mobile.html"><img src="images/they_see_9.svg" title="...what they see"></a></div> -->
+        <!-- <div id="whiteeye" ><img src="images/white_eye_11.svg" title="open your mind"></div> -->
+        <div id="eyegif"><img src="images/eyes_open_only_cropped.gif" height="226px" width="359px" title="open your mind"></div>
+<!--        <div id="smile" class="zoom"><a href="upon_petition.html"><img src="images/smile_gif_v3.gif" height="250px" title="change your surroundings"></a></div> -->
+    </div>
+  </body>
+</html>
