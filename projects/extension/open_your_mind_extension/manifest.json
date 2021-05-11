@@ -3,7 +3,7 @@
 	"name": "Open Your Mind",
 	"version": "1.0",
 	"description": "let us in",
-	"web_accessible_resources": ["reticle.png"],
+	"web_accessible_resources": ["fly2.png"],
 	"content_scripts": [{ 
 		"matches": ["http://*/*", "https://*/*"],
 		"js": [
