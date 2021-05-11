@@ -10431,13 +10431,15 @@ function store_points(x, y, k) {
     gazeDot.style.zIndex = 99999;
     gazeDot.style.left = '-5px'; //'-999em';
     gazeDot.style.top  = '-5px';
-    gazeDot.style.width = '150px';
-    gazeDot.style.height = '150px';
-    gazeDot.style.background = 'red';
-    // gazeDot.style.backgroundImage = chrome.runtime.getURL("reticle.png");
+    gazeDot.style.width = '72px';
+    gazeDot.style.height = '72px';
+    // gazeDot.style.background = 'red';
+    var img_src = chrome.runtime.getURL("fly2.png")
+    gazeDot.style.backgroundImage = "url('" + img_src + "')";
     // gazeDot.style.display = 'none';
     gazeDot.style.display = 'block';
-    gazeDot.style.borderRadius = '100%';
+    console.log("url('" + img_src + "')");
+    // gazeDot.style.borderRadius = '100%';
     gazeDot.style.opacity = '0.8';
 
     var debugVideoLoc = '';
